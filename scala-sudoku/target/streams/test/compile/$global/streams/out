@@ -1,0 +1,49 @@
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:9:22: not found: value parse[0m
+[0m[[0m[31merror[0m] [0m[0m	val parsedCS121_1 = parse(fromCS121_1)[0m
+[0m[[0m[31merror[0m] [0m[0m	                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:10:22: not found: value parse[0m
+[0m[[0m[31merror[0m] [0m[0m	val parsedCS121_2 = parse(fromCS121_2)[0m
+[0m[[0m[31merror[0m] [0m[0m	                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:11:19: not found: value parse[0m
+[0m[[0m[31merror[0m] [0m[0m	val parsedPuz1 = parse(puz1)[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:12:19: not found: value parse[0m
+[0m[[0m[31merror[0m] [0m[0m	val parsedPuz2 = parse(puz2)[0m
+[0m[[0m[31merror[0m] [0m[0m	                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:18:10: not found: value peers[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(peers(0,0).length == 20)[0m
+[0m[[0m[31merror[0m] [0m[0m		       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:19:10: not found: value peers[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(peers(0,0).toSet == Set((0,1),(0,2),(0,3),(0,4),(0,5),(0,6),(0,7),(0,8),(1,0),(2,0),(3,0),(4,0),(5,0),(6,0),(7,0),(8,0),(1,1),(1,2),(2,1),(2,2)))[0m
+[0m[[0m[31merror[0m] [0m[0m		       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:44:49: value charGridHelper is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m	val Str0Grid = tstStr.toList.map(c => Solution.charGridHelper(c))[0m
+[0m[[0m[31merror[0m] [0m[0m	                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:49:44: value charGridHelper is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m	val Str1Grid = Str1List.map(c => Solution.charGridHelper(c))[0m
+[0m[[0m[31merror[0m] [0m[0m	                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:52:27: value allPointsList is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m	val allPoints = Solution.allPointsList(0).distinct[0m
+[0m[[0m[31merror[0m] [0m[0m	                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:65:19: value allPointsList is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(Solution.allPointsList(0).distinct.size == 81)[0m
+[0m[[0m[31merror[0m] [0m[0m		                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:72:19: value charGridHelper is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(Solution.charGridHelper('3') == List(3))[0m
+[0m[[0m[31merror[0m] [0m[0m		                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:73:19: value charGridHelper is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(Solution.charGridHelper('.') == List(1,2,3,4,5,6,7,8,9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:94:19: value colParse is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(Solution.colParse(Solution.rowParse(Str0Grid)) == Solution.rowParse(Solution.colParse(Str0Grid)))[0m
+[0m[[0m[31merror[0m] [0m[0m		                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:94:37: value rowParse is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(Solution.colParse(Solution.rowParse(Str0Grid)) == Solution.rowParse(Solution.colParse(Str0Grid)))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:94:69: value rowParse is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(Solution.colParse(Solution.rowParse(Str0Grid)) == Solution.rowParse(Solution.colParse(Str0Grid)))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-sudoku/src/test/scala/Tests.scala:94:87: value colParse is not a member of object Solution[0m
+[0m[[0m[31merror[0m] [0m[0m		assert(Solution.colParse(Solution.rowParse(Str0Grid)) == Solution.rowParse(Solution.colParse(Str0Grid)))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m16 errors found[0m

@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-csv-wrangling/src/main/scala/Main.scala:46:18: wrong number of type arguments for List, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0mdef helper(rows: List[String, Int], commonName: String, highestCount: Int): (String, Int)= rows match[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-csv-wrangling/src/main/scala/Main.scala:51:11: value _2 is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m		if(head._2>highestCount)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-csv-wrangling/src/main/scala/Main.scala:52:22: value _1 is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m			helper(tail, head._1, head._2)[0m
+[0m[[0m[31merror[0m] [0m[0m			                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-csv-wrangling/src/main/scala/Main.scala:52:31: value _2 is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m			helper(tail, head._1, head._2)[0m
+[0m[[0m[31merror[0m] [0m[0m			                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-csv-wrangling/src/main/scala/Main.scala:58:50: wrong number of type arguments for List, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0mdef mapHelper(rows: List[String, List[SSARow]]): List[String, Int]= rows match[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-csv-wrangling/src/main/scala/Main.scala:58:21: wrong number of type arguments for List, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0mdef mapHelper(rows: List[String, List[SSARow]]): List[String, Int]= rows match[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-csv-wrangling/src/main/scala/Main.scala:61:26: value _1 is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m	case head::tail=> (head._1, count(head._2)) :: mapHelper(tail)[0m
+[0m[[0m[31merror[0m] [0m[0m	                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-csv-wrangling/src/main/scala/Main.scala:61:41: value _2 is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m	case head::tail=> (head._1, count(head._2)) :: mapHelper(tail)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

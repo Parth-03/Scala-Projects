@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-list-processing/src/main/scala/Lists.scala:47:13: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.immutable.Nil.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m	case Nil=> Nil[0m
+[0m[[0m[31merror[0m] [0m[0m	           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-list-processing/src/main/scala/Lists.scala:57:12: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.immutable.Nil.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m	case Nil=>Nil[0m
+[0m[[0m[31merror[0m] [0m[0m	          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

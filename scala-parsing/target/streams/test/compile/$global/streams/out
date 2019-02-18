@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-parsing/src/test/scala/Tests.scala:10:42: value get is not a member of hw.parsing.Expr[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(ArithParser.parseArith("1+2").get == Add(Num(1),Num(2)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

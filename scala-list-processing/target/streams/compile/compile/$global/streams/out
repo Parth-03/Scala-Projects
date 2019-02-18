@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/student/scala-list-processing/src/main/scala/Lists.scala:50:31: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m			head+addSubHelper(x+1,tail))[0m
+[0m[[0m[31merror[0m] [0m[0m			                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
